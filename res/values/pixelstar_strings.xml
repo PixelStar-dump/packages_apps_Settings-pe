@@ -23,6 +23,9 @@
     <string name="pixelstar_version_default">Unknown</string>
     <string name="pixelstar_uri" translatable="false">https://github.com/Project-Pixelstar</string>
 
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
     <!-- Pixelstar maintainer -->
     <string name="maintainer">Maintainer</string>
     <string name="pixelstar_maintainer" translatable="false">Unofficial Maintainer</string>
