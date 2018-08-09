@@ -25,6 +25,15 @@
         android:layout="@layout/pixelstar_logo_layout"
         android:key="pixelstar_logo" />
 
+    <!-- PixelStar version -->
+    <Preference
+        android:key="pixelstar_release_version"
+        android:title="@string/pixelstar_release_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:searchable="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.PixelStarVersionDetailPreferenceController"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
