@@ -22,14 +22,16 @@ import android.provider.Settings;
 import android.text.format.DateFormat;
 import android.text.TextUtils;
 import android.util.ArraySet;
+import java.util.List;
 import android.view.View;
-
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.ListPreference;
 import androidx.preference.SwitchPreference;
-
+import com.android.settings.custom.fragments.SmartPixels;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.custom.preference.SystemSettingListPreference;
@@ -39,8 +41,13 @@ import com.android.internal.util.custom.cutout.CutoutUtils;
 
 import java.util.Set;
 
+@SearchIndexable
 public class StatusBarSettings extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
+
+    private static final String SMART_PIXELS = "smart_pixels";
+
+    private Preference mSmartPixels;
 
     private static final String CATEGORY_BATTERY = "status_bar_battery_key";
     private static final String CATEGORY_CLOCK = "status_bar_clock_key";
@@ -101,7 +108,20 @@ public class StatusBarSettings extends SettingsPreferenceFragment
                 com.android.internal.R.bool.config_automatic_brightness_available)){
             mStatusBarBrightnessCategory.removePreference(mStatusBarQsShowAutoBrightness);
         }
+
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        // Check if Smart Pixels is supported
+        mSmartPixels = (Preference) prefScreen.findPreference(SMART_PIXELS);
+        boolean mSmartPixelsSupported = getResources().getBoolean(
+                com.android.internal.R.bool.config_supportSmartPixels);
+
+        if (!mSmartPixelsSupported) {
+            // If Smart Pixels is not supported, remove the preference
+            prefScreen.removePreference(mSmartPixels);
+        }
     }
+
 
     @Override
     public void onResume() {
@@ -229,4 +249,22 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     public int getMetricsCategory() {
         return MetricsEvent.CUSTOM_SETTINGS;
     }
+
+    /**
+     * For search
+     */
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.superior_lab_misc) {
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    List<String> keys = super.getNonIndexableKeys(context);
+
+                    boolean mSmartPixelsSupported = context.getResources().getBoolean(
+                            com.android.internal.R.bool.config_supportSmartPixels);
+                    if (!mSmartPixelsSupported)
+                        keys.add(SMART_PIXELS);
+
+                    return keys;
+                }
+            };
 }

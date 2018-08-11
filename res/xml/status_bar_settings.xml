@@ -123,4 +123,10 @@
             android:defaultValue="false" />
     </PreferenceCategory>
 
+    <Preference
+        android:key="smart_pixels"
+        android:title="@string/smart_pixels_title"
+        android:summary="@string/smart_pixels_summary"
+        android:fragment="com.android.settings.custom.fragments.SmartPixels" />
+
 </PreferenceScreen>
