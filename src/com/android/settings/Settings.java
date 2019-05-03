@@ -491,4 +491,7 @@ public class Settings extends SettingsActivity {
      * Activity for WirelessDebuggingActivity
      */
     public static class WirelessDebuggingActivity extends SettingsActivity { /* empty */ }
+
+    // LiveDisplay
+    public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
 }
