@@ -17,4 +17,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">Build date</string>
+
+    <!-- Pixelstar version -->
+    <string name="pixelstar_version">Pixelstar version</string>
+    <string name="pixelstar_version_default">Unknown</string>
 </resources>
