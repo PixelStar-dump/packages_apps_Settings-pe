@@ -66,12 +66,18 @@
             android:selectable="true"
             settings:textStart="@string/smallest_tick_label"
             settings:textEnd="@string/greatest_tick_label"/>
+        
+        <com.pixelstar.support.preferences.SecureSettingSwitchPreference
+            android:key="back_gesture_haptic"
+            android:title="@string/back_gesture_haptic_title"
+            android:summary="@string/back_gesture_haptic_summary"
+            android:defaultValue="true" />
 
         <SwitchPreference
             android:key="immersive_navigation"
             android:title="@string/immersive_navigation_title"
             android:summary="@string/immersive_navigation_summary" />
-    </PreferenceCategory>
+   </PreferenceCategory>
 
     <com.android.settingslib.widget.FooterPreference
         android:key="gesture_navigation_settings_footer"
