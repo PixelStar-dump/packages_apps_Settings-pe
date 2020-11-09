@@ -21,4 +21,5 @@
     <!-- Pixelstar version -->
     <string name="pixelstar_version">Pixelstar version</string>
     <string name="pixelstar_version_default">Unknown</string>
+    <string name="pixelstar_uri" translatable="false">https://github.com/Project-Pixelstar</string>
 </resources>
