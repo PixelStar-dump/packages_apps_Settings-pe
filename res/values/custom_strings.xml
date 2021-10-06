@@ -162,4 +162,6 @@
     <!-- About device screen, ProjectStar Release Version -->
     <string name="projectstar_release_version">ProjectStar Release Version</string>
 
+    <!-- PixelStar Maintainer -->
+    <string name="PixelStar_maintainer">Device Maintainer</string>
 </resources>
