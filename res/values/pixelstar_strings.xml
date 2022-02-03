@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2020-2023 The Pixelstar Project
+     Copyright (C) 2020-2024 The Pixelstar Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -26,4 +26,10 @@
     <!-- Pixelstar maintainer -->
     <string name="maintainer">Maintainer</string>
     <string name="pixelstar_maintainer" translatable="false">Unofficial Maintainer</string>
+
+   <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Locate the fingerprint sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Locate the fingerprint sensor on the side of your phone.</string>
+
 </resources>
