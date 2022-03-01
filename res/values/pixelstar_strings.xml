@@ -126,6 +126,9 @@
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
 
+    <!-- Face Unlock -->
+    <string name="skip_biometric_auth_confirmation_title">Skip manually confirmation</string>
+
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Pill length</string>
     <string name="short_label">Short</string>
