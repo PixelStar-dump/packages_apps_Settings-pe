@@ -192,7 +192,12 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
+<<<<<<< HEAD
 import com.star.field.StarField;
+=======
+
+import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
+>>>>>>> 6c583d9c888 (SoftAp: add client manager)
 
 public class SettingsGateway {
 
@@ -375,6 +380,7 @@ public class SettingsGateway {
             UserAspectRatioDetails.class.getName(),
             ScreenTimeoutSettings.class.getName(),
             StarField.class.getName(),
+            WifiTetherClientManager.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
