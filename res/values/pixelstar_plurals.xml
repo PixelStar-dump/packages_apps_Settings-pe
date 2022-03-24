@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
+<<<<<<< HEAD
     Copyright (C) 2020-2023 The Pixelstar Project
+=======
+
+    Copyright (C) 2020-2024 The Project Pixelstar
+>>>>>>> b6c74d7f8c5 (Settings: Introduce app lock [2/3])
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -27,4 +32,10 @@
         <attr name="defaultValuePure" format="float" />
         <attr name="digits" format="integer" />
     </declare-styleable>
+
+    <!-- App Lock -->
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+    </plurals>
 </resources>

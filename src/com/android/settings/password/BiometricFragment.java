@@ -142,7 +142,8 @@ public class BiometricFragment extends InstrumentedFragment {
                         promptInfo.isDisallowBiometricsIfPolicyExists())
                 .setShowEmergencyCallButton(promptInfo.isShowEmergencyCallButton())
                 .setReceiveSystemEvents(true)
-                .setAllowBackgroundAuthentication(true);
+                .setAllowBackgroundAuthentication(true)
+                .setAllowBackgroundAuthentication(promptInfo.isAllowBackgroundAuthentication());
 
         // Check if the default subtitle should be used if subtitle is null/empty
         if (promptInfo.isUseDefaultSubtitle()) {
