@@ -220,4 +220,5 @@
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
     </PreferenceCategory>
+
 </PreferenceScreen>
