@@ -212,6 +212,9 @@
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Total available RAM</string>
 
+    <!-- In-call notifications -->
+    <string name="in_call_notifications_title">In-call notifications</string>
+
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
     <string name="increasing_ring_min_volume_title">Start volume</string>
