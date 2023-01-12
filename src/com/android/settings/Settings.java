@@ -486,4 +486,8 @@ public class Settings extends SettingsActivity {
      * Activity for Starfield
      */
     public static class StartLabActivity extends SettingsActivity {}
+    /**
+     * Activity for WirelessDebuggingActivity
+     */
+    public static class WirelessDebuggingActivity extends SettingsActivity { /* empty */ }
 }
