@@ -484,4 +484,9 @@ public class Settings extends SettingsActivity {
 
     // StarField Additions.
     public static class StarFieldSettingsActivity extends SettingsActivity {}
+
+    /**
+     * Activity for WirelessDebuggingActivity
+     */
+    public static class WirelessDebuggingActivity extends SettingsActivity { /* empty */ }
 }
