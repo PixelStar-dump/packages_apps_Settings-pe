@@ -480,4 +480,9 @@ public class Settings extends SettingsActivity {
     public static class PreviouslyConnectedDeviceActivity extends SettingsActivity { /* empty */ }
 
     public static class ScreenTimeoutActivity extends SettingsActivity { /* empty */ }
+
+    /**
+     * Activity for Starfield
+     */
+    public static class StartLabActivity extends SettingsActivity {}
 }

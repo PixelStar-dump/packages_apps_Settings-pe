@@ -21,6 +21,7 @@ import com.android.settings.IccLockSettings;
 import com.android.settings.MainClear;
 import com.android.settings.MainClearConfirm;
 import com.android.settings.Settings;
+import com.pstar.settings.starfield.StarfieldSettings;
 import com.android.settings.TestingSettings;
 import com.android.settings.TrustedCredentialsSettings;
 import com.android.settings.accessibility.AccessibilityDetailsSettingsFragment;
@@ -372,6 +373,7 @@ public class SettingsGateway {
             BatteryInfoFragment.class.getName(),
             UserAspectRatioDetails.class.getName(),
             ScreenTimeoutSettings.class.getName(),
+            StarfieldSettings.class.getName()            
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

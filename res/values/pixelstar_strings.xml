@@ -26,4 +26,9 @@
     <!-- Pixelstar maintainer -->
     <string name="maintainer">Maintainer</string>
     <string name="pixelstar_maintainer" translatable="false">Unofficial Maintainer</string>
+
+    <!-- Starfield -->
+    <string name="pstar_title">Starfield</string>
+    <string name="pstar_footer">Stars Shine And So Do You</string>
+    <string name="pstar_summary">Shine Like A Star</string>
 </resources>
