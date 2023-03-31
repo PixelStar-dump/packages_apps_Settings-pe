@@ -421,4 +421,8 @@
     <string name="aware_summary_when_airplane_batterysaver_on">Unavailable because airplane mode and Battery Saver are on</string>
     <string name="aware_summary_when_airplane_on">Unavailable because airplane mode is on</string>
     <string name="aware_summary_when_batterysaver_on">Unavailable because Battery Saver is on</string>
+
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
 </resources>
