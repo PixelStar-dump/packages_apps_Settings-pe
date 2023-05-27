@@ -184,3 +184,8 @@ android_library_import {
     aars: ["libs/lib-expandablebottombar-release.aar"],
     sdk_version: "current",
 }
+
+android_library_import {
+    name: "glide",
+    aars: ["libs/glide-4.15.1.aar"],
+}
