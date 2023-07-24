@@ -42,8 +42,6 @@ public class PixelStarVersionDetailPreferenceController extends BasePreferenceCo
     private static final String TAG = "PixelStarVersionDialogCtrl";
     private static final int DELAY_TIMER_MILLIS = 500;
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
-
-/PixelStarVersionDetailPreferenceController.java
     private static final String KEY_PixelStar_BUILD_VERSION_PROP = "org.pixelstar.build_version";
     private static final String KEY_PixelStar_CODENAME_VERSION_PROP = "org.pixelstar.codename";
     private static final String KEY_PixelStar_DEVICE_PROP = "org.pixelstar.device";
