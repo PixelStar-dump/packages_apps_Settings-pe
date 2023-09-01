@@ -202,11 +202,6 @@
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
     
-    <!-- Immersive Navigation -->
-    <string name="gesture_navbar_category_title">Navigation bar</string>
-    <string name="immersive_navigation_title">Immersive Navigation</string>
-    <string name="immersive_navigation_summary">Hide the gesture pill and navigation bar padding.</string>
-    
     <!-- reTicker -->
     <string name="reticker_title">reTicker</string>
     <string name="reticker_summary">Replace heads-up notification with slim and less invasive version of redesigned ticker</string>
