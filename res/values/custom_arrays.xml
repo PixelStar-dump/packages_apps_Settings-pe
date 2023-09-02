@@ -291,7 +291,7 @@
         <item>7200000</item>
         <item>14400000</item>
         <item>28800000</item>
-
+    </string-array>
     <!-- App lock timeout -->
     <string-array name="app_lock_timeout_entries">
         <item>5 seconds</item>
@@ -311,6 +311,5 @@
         <item>300000</item>
         <item>600000</item>
         <item>1800000</item>
-
     </string-array>
 </resources>

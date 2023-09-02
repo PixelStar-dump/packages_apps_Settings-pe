@@ -4591,10 +4591,6 @@
             </intent-filter>
         </activity>
 
-        <!-- Bluetooth Timeout -->
-        <receiver android:name="com.android.settingslib.bluetooth.BluetoothTimeoutReceiver"
-            android:exported="true">
-
         <!-- App lock -->
         <activity android:name=".security.applock.AppLockCredentialActivity"
             android:exported="false"
@@ -4614,7 +4610,12 @@
             android:exported="false"
             android:excludeFromRecents="true"
             android:taskAffinity="com.android.settings.applock"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask" >
+        </activity>
+
+        <!-- Bluetooth Timeout -->
+        <receiver android:name="com.android.settingslib.bluetooth.BluetoothTimeoutReceiver"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.bluetooth.intent.TIMEOUT" />
             </intent-filter>
