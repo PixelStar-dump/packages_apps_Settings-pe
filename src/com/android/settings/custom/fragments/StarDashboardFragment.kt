@@ -19,6 +19,6 @@ package com.android.settings.custom.fragments
 import com.android.internal.logging.nano.MetricsProto
 import com.android.settings.dashboard.DashboardFragment
 
-abstract class PEXDashboardFragment: DashboardFragment() {
+abstract class StarDashboardFragment: DashboardFragment() {
     override fun getMetricsCategory(): Int = MetricsProto.MetricsEvent.CUSTOM_SETTINGS
 }

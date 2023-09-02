@@ -31,12 +31,12 @@ import com.android.settings.widget.EntityHeaderController
 import com.android.settingslib.applications.ApplicationsState.AppEntry
 import com.android.settingslib.core.AbstractPreferenceController
 import com.android.settingslib.widget.LayoutPreference
-import com.android.settings.custom.fragments.PEXDashboardFragment
+import com.android.settings.custom.fragments.StarDashboardFragment
 
 private val TAG = AppLockPackageConfigFragment::class.simpleName
 private const val KEY_HEADER = "header_view"
 
-class AppLockPackageConfigFragment : PEXDashboardFragment() {
+class AppLockPackageConfigFragment : StarDashboardFragment() {
 
     private lateinit var packageInfo: PackageInfo
 

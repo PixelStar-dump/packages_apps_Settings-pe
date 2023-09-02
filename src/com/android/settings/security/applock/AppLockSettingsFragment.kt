@@ -30,10 +30,10 @@ import com.android.settings.dashboard.DashboardFragment
 import com.android.settings.search.BaseSearchIndexProvider
 import com.android.settingslib.core.AbstractPreferenceController
 import com.android.settingslib.search.SearchIndexable
-import com.android.settings.custom.fragments.PEXDashboardFragment
+import com.android.settings.custom.fragments.StarDashboardFragment
 
 @SearchIndexable
-class AppLockSettingsFragment : PEXDashboardFragment(),
+class AppLockSettingsFragment : StarDashboardFragment(),
     MenuItem.OnMenuItemClickListener {
 
     private var debugEnabled = SystemProperties.get(DEBUG_PROPERTY, null) == LEVEL_DEBUG
