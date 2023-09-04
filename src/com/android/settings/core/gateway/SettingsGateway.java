@@ -178,7 +178,6 @@ import com.android.settings.wifi.details.WifiNetworkDetailsFragment;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
-import com.google.android.settings.security.SecurityHubDashboard;
 
 import com.android.settings.livedisplay.LiveDisplaySettings;
 
@@ -355,7 +354,6 @@ public class SettingsGateway {
             TurnScreenOnDetails.class.getName(),
             LiveDisplaySettings.class.getName(),
             WifiTetherClientManager.class.getName(),
-            SecurityHubDashboard.class.getName(),
             SmartPixels.class.getName()
     };
 
