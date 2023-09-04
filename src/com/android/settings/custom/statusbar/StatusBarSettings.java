@@ -254,7 +254,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
      * For search
      */
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.superior_lab_misc) {
+            new BaseSearchIndexProvider(R.xml.status_bar_settings) {
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);

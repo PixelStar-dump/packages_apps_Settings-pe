@@ -355,8 +355,8 @@ public class SettingsGateway {
             TurnScreenOnDetails.class.getName(),
             LiveDisplaySettings.class.getName(),
             WifiTetherClientManager.class.getName(),
-            SecurityHubDashboard.class.getName()
-            SmartPixels.class.getName(),
+            SecurityHubDashboard.class.getName(),
+            SmartPixels.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
