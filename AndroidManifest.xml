@@ -1021,7 +1021,7 @@
             android:name=".Settings$LanguageSettingsActivity"
             android:label="@string/languages_settings"
             android:exported="true"
-            android:icon="@drawable/ic_settings_languages">
+            android:icon="@drawable/settings_languages_custom">
             <intent-filter>
                 <action android:name="android.settings.LANGUAGE_SETTINGS"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -2078,7 +2078,7 @@
 
         <activity android:name="Settings$PrivacySettingsActivity"
                 android:label="@string/privacy_settings_title"
-                android:icon="@drawable/ic_settings_backup"
+                android:icon="@drawable/backup_custom"
                 android:exported="true"
                 android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
@@ -2906,7 +2906,7 @@
         <activity
             android:name="Settings$DevelopmentSettingsDashboardActivity"
             android:label="@string/development_settings_title"
-            android:icon="@drawable/ic_settings_development"
+            android:icon="@drawable/settings_development_custom"
             android:exported="true"
             android:enabled="false">
             <intent-filter android:priority="1">
@@ -2925,7 +2925,7 @@
             <meta-data android:name="com.android.settings.summary"
                        android:resource="@string/summary_empty"/>
             <meta-data android:name="com.android.settings.icon"
-                       android:resource="@drawable/ic_settings_development" />
+                       android:resource="@drawable/settings_development_custom" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                        android:value="com.android.settings.development.DevelopmentSettingsDashboardFragment" />
             <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
@@ -2938,7 +2938,7 @@
              activity is disabled to be CTS compliant. -->
         <activity
             android:name=".development.DevelopmentSettingsDisabledActivity"
-            android:icon="@drawable/ic_settings_development"
+            android:icon="@drawable/settings_development_custom"
             android:label="@string/development_settings_title"
             android:excludeFromRecents="true"
             android:exported="true"
@@ -3440,7 +3440,7 @@
             android:name="Settings$UserSettingsActivity"
             android:label="@string/user_settings_title"
             android:exported="true"
-            android:icon="@drawable/ic_settings_multiuser">
+            android:icon="@drawable/multiuser_custom">
             <intent-filter android:priority="1">
                 <action android:name="android.settings.USER_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -3454,7 +3454,7 @@
             <meta-data android:name="com.android.settings.summary_uri"
                        android:value="content://com.android.settings.dashboard.SummaryProvider/user" />
             <meta-data android:name="com.android.settings.icon"
-                       android:resource="@drawable/ic_settings_multiuser" />
+                       android:resource="@drawable/multiuser_custom" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                        android:value="com.android.settings.users.UserSettings" />
             <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
@@ -4312,7 +4312,7 @@
         <activity android:name=".backup.UserBackupSettingsActivity"
                   android:label="@string/privacy_settings_title"
                   android:exported="true"
-                  android:icon="@drawable/ic_settings_backup">
+                  android:icon="@drawable/backup_custom">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -4326,7 +4326,7 @@
             <meta-data android:name="com.android.settings.category"
                        android:value="com.android.settings.category.ia.system" />
             <meta-data android:name="com.android.settings.icon"
-                       android:resource="@drawable/ic_settings_backup" />
+                       android:resource="@drawable/backup_custom" />
             <meta-data android:name="com.android.settings.order" android:value="-60"/>
         </activity>
 

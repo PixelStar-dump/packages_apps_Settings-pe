@@ -65,7 +65,7 @@ public class CallVolumePreferenceController extends VolumeSeekBarPreferenceContr
     public int getMuteIcon() {
         // User will not be allowed to fully mute the call volume, use original
         // icon for mute icon.
-        return R.drawable.ic_local_phone_24_lib;
+        return R.drawable.call_vol_custom;
     }
 
 }

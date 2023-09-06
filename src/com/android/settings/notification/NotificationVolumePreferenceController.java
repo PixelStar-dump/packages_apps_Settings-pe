@@ -53,9 +53,9 @@ public class NotificationVolumePreferenceController extends
     public NotificationVolumePreferenceController(Context context, String key) {
         super(context, key, TAG);
 
-        mNormalIconId =  R.drawable.ic_notifications;
-        mVibrateIconId = R.drawable.ic_volume_ringer_vibrate;
-        mSilentIconId = R.drawable.ic_notifications_off_24dp;
+        mNormalIconId =  R.drawable.notifications_custom;
+        mVibrateIconId = R.drawable.volume_ringer_vibrate_custom;
+        mSilentIconId = R.drawable.notifications_off_custom;
 
         if (updateRingerMode()) {
             updateEnabledState();

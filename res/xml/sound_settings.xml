@@ -33,7 +33,7 @@
     <!-- Media volume -->
     <com.android.settings.notification.VolumeSeekBarPreference
         android:key="media_volume"
-        android:icon="@drawable/ic_media_stream"
+        android:icon="@drawable/media_custom"
         android:title="@string/media_volume_option_title"
         android:order="-180"
         settings:controller="com.android.settings.notification.MediaVolumePreferenceController"/>
@@ -50,7 +50,7 @@
     <!-- Call volume -->
     <com.android.settings.notification.VolumeSeekBarPreference
         android:key="call_volume"
-        android:icon="@drawable/ic_local_phone_24_lib"
+        android:icon="@drawable/call_vol_custom"
         android:title="@string/call_volume_option_title"
         android:order="-170"
         settings:controller="com.android.settings.notification.CallVolumePreferenceController"/>
@@ -63,11 +63,10 @@
         android:order="-165"
         settings:searchable="false"
         settings:controller="com.android.settings.sound.HandsFreeProfileOutputPreferenceController"/>
-
     <!-- Separate Ring volume -->
     <com.android.settings.notification.VolumeSeekBarPreference
         android:key="separate_ring_volume"
-        android:icon="@drawable/ic_ring_volume"
+        android:icon="@drawable/ring_volume_custom"
         android:title="@string/separate_ring_volume_option_title"
         android:order="-155"
         settings:controller="com.android.settings.notification.SeparateRingVolumePreferenceController"/>
@@ -75,7 +74,7 @@
     <!-- Notification volume -->
     <com.android.settings.notification.VolumeSeekBarPreference
         android:key="notification_volume"
-        android:icon="@drawable/ic_notifications"
+        android:icon="@drawable/notifications_custom"
         android:title="@string/notification_volume_option_title"
         android:order="-150"
         settings:controller="com.android.settings.notification.NotificationVolumePreferenceController"
@@ -84,7 +83,7 @@
     <!-- Alarm volume -->
     <com.android.settings.notification.VolumeSeekBarPreference
         android:key="alarm_volume"
-        android:icon="@*android:drawable/ic_audio_alarm"
+        android:icon="@drawable/alarm_custom"
         android:title="@string/alarm_volume_option_title"
         android:order="-140"
         settings:controller="com.android.settings.notification.AlarmVolumePreferenceController"/>
@@ -100,7 +99,7 @@
     <!-- Increasing ring volume -->
     <com.android.settings.notification.IncreasingRingVolumePreference
         android:key="increasing_ring_volume"
-        android:icon="@drawable/ring_notif_increasing"
+        android:icon="@drawable/ring_notif_increasing_custom"
         android:dependency="increasing_ring"
         android:order="-135"
         settings:controller="com.android.settings.notification.IncreasingRingVolumePreferenceController" />

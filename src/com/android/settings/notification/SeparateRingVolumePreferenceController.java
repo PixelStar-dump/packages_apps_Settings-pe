@@ -51,9 +51,9 @@ public class SeparateRingVolumePreferenceController extends
     public SeparateRingVolumePreferenceController(Context context, String key) {
         super(context, key, TAG);
 
-        mNormalIconId = R.drawable.ic_ring_volume;
-        mVibrateIconId = R.drawable.ic_volume_ringer_vibrate;
-        mSilentIconId = R.drawable.ic_ring_volume_off;
+        mNormalIconId = R.drawable.ring_volume_custom;
+        mVibrateIconId = R.drawable.volume_ringer_vibrate_custom;
+        mSilentIconId = R.drawable.ring_volume_off_custom;
 
         updateRingerMode();
     }

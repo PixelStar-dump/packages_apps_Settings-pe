@@ -39,7 +39,7 @@
     <com.android.settingslib.RestrictedPreference
         android:key="add_bt_devices"
         android:title="@string/bluetooth_pairing_pref_title"
-        android:icon="@drawable/ic_add_24dp"
+        android:icon="@drawable/add_custom"
         android:summary="@string/connected_device_add_device_summary"
         android:fragment="com.android.settings.bluetooth.BluetoothPairingDetail"
         settings:keywords="@string/keywords_add_bt_device"
@@ -49,7 +49,7 @@
 
     <androidx.preference.ListPreference
         android:key="bluetooth_timeout"
-        android:icon="@drawable/ic_bluetooth_disabled"
+        android:icon="@drawable/bluetooth_disabled_custom"
         android:title="@string/bluetooth_timeout"
         android:summary="@string/summary_placeholder"
         android:entries="@array/bluetooth_timeout_entries"
@@ -64,7 +64,7 @@
         <Preference
             android:key="previously_connected_devices_see_all"
             android:title="@string/previous_connected_see_all"
-            android:icon="@drawable/ic_chevron_right_24dp"
+            android:icon="@drawable/right_custom"
             android:order="10"
             settings:searchable="false"
             android:fragment="com.android.settings.connecteddevice.PreviouslyConnectedDeviceDashboardFragment"/>

@@ -23,7 +23,7 @@
     <!-- Brightness slider intensity -->
      <com.pixelstar.support.preferences.CustomSeekBarPreference
         android:key="brightness_slider_haptics_intensity"
-        android:icon="@drawable/ic_brightness_auto"
+        android:icon="@drawable/brightness_auto_custom"
         android:title="@string/brightness_slider_haptics_intensity_title"
         android:order="-998"
         android:max="3"
@@ -34,18 +34,18 @@
     <!-- QS tile haptics intensity -->
     <com.pixelstar.support.preferences.CustomSeekBarPreference
         android:key="qs_panel_tile_haptic"
-        android:icon="@drawable/ic_qs_tile"
+        android:icon="@drawable/qs_tile_custom"
         android:title="@string/qs_panel_tile_haptic_intensity_title"
         android:order="-997"
         android:max="5"
         settings:min="0"
         android:defaultValue="0"
         settings:interval="1"/>
-        
+
     <!-- Edge scrolling intensity -->
      <com.pixelstar.support.preferences.CustomSeekBarPreference
         android:key="edge_scrolling_haptics_intensity"
-        android:icon="@drawable/ic_scroll"
+        android:icon="@drawable/scroll_custom"
         android:title="@string/edge_scrolling_haptics_intensity_title"
         android:order="-997"
         android:max="5"
@@ -57,7 +57,7 @@
     <!-- Volume slider intensity -->
      <com.pixelstar.support.preferences.CustomSeekBarPreference
         android:key="volume_slider_haptics_intensity"
-        android:icon="@drawable/ic_settings_sound"
+        android:icon="@drawable/settings_sound_custom"
         android:title="@string/volume_slider_haptics_intensity_title"
         android:order="-996"
         android:max="3"

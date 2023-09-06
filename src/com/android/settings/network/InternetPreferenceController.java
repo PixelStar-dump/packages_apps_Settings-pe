@@ -74,11 +74,11 @@ public class InternetPreferenceController extends AbstractPreferenceController i
     @VisibleForTesting
     static Map<Integer, Integer> sIconMap = new HashMap<>();
     static {
-        sIconMap.put(INTERNET_OFF, R.drawable.ic_no_internet_unavailable);
-        sIconMap.put(INTERNET_NETWORKS_AVAILABLE, R.drawable.ic_no_internet_available);
-        sIconMap.put(INTERNET_WIFI, R.drawable.ic_wifi_signal_4);
-        sIconMap.put(INTERNET_CELLULAR, R.drawable.ic_network_cell);
-        sIconMap.put(INTERNET_ETHERNET, R.drawable.ic_settings_ethernet);
+        sIconMap.put(INTERNET_OFF, R.drawable.no_internet_unavailable_custom);
+        sIconMap.put(INTERNET_NETWORKS_AVAILABLE, R.drawable.no_internet_available_custom);
+        sIconMap.put(INTERNET_WIFI, R.drawable.wifi_custom);
+        sIconMap.put(INTERNET_CELLULAR, R.drawable.network_cell_custom);
+        sIconMap.put(INTERNET_ETHERNET, R.drawable.settings_ethernet_custom);
     }
 
     private static Map<Integer, Integer> sSummaryMap = new HashMap<>();
@@ -121,8 +121,6 @@ public class InternetPreferenceController extends AbstractPreferenceController i
         if (icon != 0) {
             final Drawable drawable = mContext.getDrawable(icon);
             if (drawable != null) {
-                drawable.setTintList(
-                        Utils.getColorAttr(mContext, android.R.attr.colorControlNormal));
                 mPreference.setIcon(drawable);
             }
         }

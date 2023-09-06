@@ -40,7 +40,7 @@
         <Preference
             android:key="see_all_apps"
             android:title="@string/default_see_all_apps_title"
-            android:icon="@drawable/ic_chevron_right_24dp"
+            android:icon="@drawable/right_custom"
             android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
             android:order="5"
             settings:searchable="false">

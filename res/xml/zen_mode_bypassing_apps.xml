@@ -29,7 +29,7 @@
     <Preference
         android:key="zen_mode_bypassing_apps_add"
         android:title="@string/zen_mode_bypassing_apps_add"
-        android:icon="@drawable/ic_add_24dp"
+        android:icon="@drawable/add_custom"
         settings:allowDividerAbove="true" />
 
     <com.android.settingslib.widget.FooterPreference
