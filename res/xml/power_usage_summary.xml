@@ -59,10 +59,11 @@
         android:fragment="com.android.settings.health.ChargingControlSettings"
         settings:controller="com.android.settings.health.ChargingControlPreferenceController" />
 
-    <SwitchPreference
+    <Preference
         android:key="fast_charging"
         android:title="@string/fast_charging_title"
         android:summary="@string/fast_charging_summary"
+        android:fragment="com.android.settings.fuelgauge.fastcharge.FastChargingSettings"
         settings:controller="com.android.settings.fuelgauge.FastChargingPreferenceController"/>
         
     <SwitchPreferenceCompat
