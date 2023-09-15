@@ -34,7 +34,7 @@ import com.custom.support.preferences.CustomDialogPreference;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
-import com.android.internal.lineage.health.HealthInterface;
+import com.android.internal.custom.health.HealthInterface;
 
 public abstract class TimePreference extends CustomDialogPreference<AlertDialog> {
     private static final String TAG = TimePreference.class.getSimpleName();

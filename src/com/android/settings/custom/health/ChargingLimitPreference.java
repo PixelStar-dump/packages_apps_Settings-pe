@@ -24,7 +24,7 @@ import android.widget.TextView;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceViewHolder;
 
-import com.android.internal.lineage.health.HealthInterface;
+import com.android.internal.custom.health.HealthInterface;
 
 import com.android.settings.R;
 
