@@ -38,7 +38,6 @@
         android:summary="@string/summary_placeholder"
         android:fragment="com.android.settings.network.NetworkProviderCallsSmsFragment"
         settings:userRestriction="no_config_mobile_networks"
-        settings:allowDividerBelow="true"
         settings:useAdminDisabledSummary="true"
         settings:controller="com.android.settings.network.NetworkProviderCallsSmsController" />
 
