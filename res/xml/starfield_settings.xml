@@ -44,4 +44,9 @@
         android:summary="@string/ignore_window_secure_summary"
         android:defaultValue="false"/>
 
+  <Preference
+        android:key="monet_settings"
+        android:title="@string/monet_settings_title"
+        android:summary="@string/monet_settings_sammary"
+        android:fragment="com.pstar.settings.starfield.fragments.MonetSettings" />
 </PreferenceScreen>
