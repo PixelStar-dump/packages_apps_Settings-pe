@@ -218,13 +218,6 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                 preference.setLayoutResource(R.layout.star_dashboard_preference_single);
             }
         }
-        int tintColor = Utils.getHomepageIconColor(getContext());
-        iteratePreferences(preference -> {
-            Drawable icon = preference.getIcon();
-            if (icon != null) {
-                icon.setTint(tintColor);
-            }
-        });
     }
 
     @Override
@@ -374,7 +367,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             if (preference == null) {
                 break;
             }
-            job.doForEach(preference);
+            //job.doForEach(preference);
         }
     }
 
