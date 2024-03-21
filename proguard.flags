@@ -73,3 +73,5 @@
 -keep class github.com.st235.lib_expandablebottombar.ExpandableBottomBarMenuItem** { *; }
 -keep class github.com.st235.lib_expandablebottombar.ExpandableBottomBarScrollableBehavior { *; }
 
+# Keep SettingsGoogle classes
+-keep class com.google.** { *; }
