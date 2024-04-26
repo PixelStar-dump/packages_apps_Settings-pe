@@ -484,10 +484,6 @@ public class Settings extends SettingsActivity {
     public static class ScreenTimeoutActivity extends SettingsActivity { /* empty */ }
 
     /**
-     * Activity for Starfield
-     */
-    public static class StartLabActivity extends SettingsActivity {}
-    /**
      * Activity for WirelessDebuggingActivity
      */
     public static class WirelessDebuggingActivity extends SettingsActivity { /* empty */ }
