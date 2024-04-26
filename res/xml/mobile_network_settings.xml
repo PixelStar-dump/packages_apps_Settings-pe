@@ -128,7 +128,7 @@
             settings:keywords="@string/keywords_enhance_4g_lte"
             settings:controller="com.android.settings.network.telephony.Enhanced4gAdvancedCallingPreferenceController"/>
 
-       <SwitchPreferenceCompat
+       <SwitchPreference
             android:key="smart_5g"
             android:title="@string/smart_5g_title"
             android:persistent="false"
