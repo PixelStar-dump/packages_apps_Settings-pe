@@ -194,7 +194,7 @@ import com.android.settings.wifi.details.WifiNetworkDetailsFragment;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
-
+import com.star.field.StarField;
 
 import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
 
@@ -372,6 +372,7 @@ public class SettingsGateway {
             MobileNetworkSettings.class.getName(),
             AppLocaleDetails.class.getName(),
             TurnScreenOnDetails.class.getName(),
+            StarField.class.getName(),
             NfcAndPaymentFragment.class.getName(),
             ColorAndMotionFragment.class.getName(),
             LongBackgroundTasksDetails.class.getName(),
@@ -426,6 +427,7 @@ public class SettingsGateway {
             Settings.MyDeviceInfoActivity.class.getName(),
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
+            Settings.StarFieldSettingsActivity.class.getName(),
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.PreviouslyConnectedDeviceDashboardActivity.class.getName(),

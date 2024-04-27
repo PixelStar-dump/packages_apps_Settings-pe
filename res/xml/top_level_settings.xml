@@ -24,7 +24,7 @@
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
         android:icon="@drawable/ic_settings_wireless"
         android:key="top_level_network"
-        android:order="-150"
+        android:order="-160"
         android:title="@string/network_dashboard_title"
         android:summary="@string/summary_placeholder"
         settings:highlightableMenuKey="@string/menu_key_network"
@@ -44,7 +44,7 @@
         android:fragment="com.android.settings.connecteddevice.ConnectedDeviceDashboardFragment"
         android:icon="@drawable/ic_devices_other"
         android:key="top_level_connected_devices"
-        android:order="-140"
+        android:order="-150"
         android:title="@string/connected_devices_dashboard_title"
         android:summary="@string/connected_devices_dashboard_default_summary"
         settings:highlightableMenuKey="@string/menu_key_connected_devices"
@@ -54,7 +54,7 @@
         android:fragment="com.android.settings.applications.AppDashboardFragment"
         android:icon="@drawable/ic_apps"
         android:key="top_level_apps"
-        android:order="-130"
+        android:order="-140"
         android:title="@string/apps_dashboard_title"
         android:summary="@string/app_and_notification_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_apps"/>
@@ -106,6 +106,15 @@
         android:summary="@string/display_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_display"
         settings:controller="com.android.settings.display.TopLevelDisplayPreferenceController"/>
+
+    <Preference
+        android:key="top_level_star"
+        android:title="@string/starfield_title"
+        android:summary="@string/build_tweaks_summary_title"
+        android:icon="@drawable/ic_settings_starfield"
+        android:order="-130"
+        android:fragment="com.sart.field.StarField"
+        settings:controller="com.star.field.TopLevelExtensionsEntryPreferenceController" />
 
     <com.android.settings.widget.RestrictedHomepagePreference
         android:icon="@drawable/ic_settings_wallpaper_white"

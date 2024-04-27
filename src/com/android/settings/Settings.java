@@ -490,4 +490,7 @@ public class Settings extends SettingsActivity {
 
     // LiveDisplay
     public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
+
+    // StarField
+    public static class StarFieldSettingsActivity extends SettingsActivity {}
 }

@@ -5117,6 +5117,21 @@
 
         <!-- This is the longest AndroidManifest.xml ever. -->
 
+        <!-- StarField -->
+        <activity android:name=".Settings$StarFieldSettingsActivity"
+                  android:label="@string/starfield_title"
+                  android:icon="@drawable/ic_homepage_starfield"
+                  android:exported="true"
+                  android:parentActivityName="com.android.settings">
+            <intent-filter>
+                <action android:name="com.android.settings.action.SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.star.field.StarField"/>
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/build_tweaks_summary_title"/>
+        </activity>
+
         <activity
             android:name=".Settings$WirelessDebuggingActivity"
             android:label="@string/adb_wireless_settings"
