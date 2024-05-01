@@ -216,7 +216,7 @@
         android:order="-50"/>
 
     <!-- In-call notifications -->
-    <SwitchPreference
+    <SwitchPreferenceCompat
         android:key="in_call_notifications"
         android:title="@string/in_call_notifications_title"
         android:order="-47"/>
@@ -228,7 +228,7 @@
         android:order="-45"/>
 
     <!-- Screenshot sound -->
-    <SwitchPreference
+    <SwitchPreferenceCompat
         android:key="screenshot_shutter_sound"
         android:title="@string/screenshot_shutter_sound_title"
         android:order="-43"/>
