@@ -123,7 +123,7 @@
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
 
-    <!-- Cycle through ringer modes gesture -->
+<!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Cycle through modes</string>
     <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
 
@@ -255,9 +255,9 @@
     <string name="search_apps">Search apps</string>
 
     <!-- Double tap to sleep -->
-    <string name="double_tap_to_sleep_title">Double tap to sleep gesture</string>
+    <string name="double_tap_to_sleep_title">	Double tap to sleep</string>
     <string name="double_tap_to_sleep_summary">Double-tap anywhere on the status bar or lockscreen to put the device to sleep</string>
-    <string name="dtts_gesture_title">Double tap to sleep</string>
+    <string name="dtts_gesture_title">Double tap to sleep gesture</string>
     <string name="dtts_gesture_summary">Double tap on statusbar or lockscreen to sleep </string>
 
     <!-- Hotspot extras -->
