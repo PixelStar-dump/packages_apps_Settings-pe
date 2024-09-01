@@ -451,6 +451,9 @@ public class DashboardFeatureProviderImpl implements DashboardFeatureProvider {
         if (tile.getPackageName().equals("com.google.android.gms")
                  && tile.getTitle(preference.getContext()).toString().equalsIgnoreCase("Google")) {
             iconDrawable = preference.getContext().getDrawable(R.drawable.ic_homepage_google_settings);
+        } else if (tile.getPackageName().equals("com.google.android.gms")
+                 && tile.getTitle(preference.getContext()).toString().equalsIgnoreCase("Back up or copy data")) {
+            iconDrawable = preference.getContext().getDrawable(R.drawable.ic_homepage_backup);
         } else if (tile.getPackageName().equals("com.google.android.apps.wellbeing")) {
             iconDrawable = preference.getContext().getDrawable(R.drawable.ic_homepage_wellbeing_settings);
         }
